@@ -1,0 +1,43 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: lightpink;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.email-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.labelelement {
+  font-family: "roboto";
+  font-size: 25px;
+  margin: 10px;
+}
+
+.inputelement {
+  font-family: "roboto";
+  font-size: 25px;
+  margin: 10px;
+}
+.heading {
+  font-family: "roboto";
+  font-size: 45px;
+  text-decoration: underline;
+}
+.submit {
+  height: 35px;
+  width: 100px;
+  align-self: flex-end;
+  background-color: skyblue;
+  color: red;
+}
